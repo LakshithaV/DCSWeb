@@ -1,0 +1,242 @@
+<html>
+	<head>
+		<title>myfirstwebsite</title>
+				<style>
+					* { /* *mean apply all the sectors */
+						box-sizing:border-box;
+					}
+					.header
+					{
+						padding:50px;
+						text-align:center;
+						font-size:30px;
+					}
+					h1
+					{
+						font-size:25px;
+					}
+					p
+					{
+						line-spacing:6;
+					}
+					ul1
+					{
+						list-style:circle;
+						font-size:15px;
+						color:red;
+					}
+					ul2
+					{
+						list-style:circle;
+						font-size:15px;
+						color:#0000FF;
+					}
+					.columnSide
+					{
+						float:left;
+						width:25%;
+						padding:30px;
+						height:300px;
+					}
+					
+					.columnMiddle
+					{
+						float:left;
+						width:50%;
+						padding: 10px;
+						height:300px;
+						text-align:justify;
+						line-height:1.5;
+					}
+					.row:after
+					{
+						/*clear floats after the columns*/
+						/*insert something after the content of each row*/
+						content:"";/*the content property is used with the :: before and :: after pseudo-element.*/
+						display:table;
+						clear:both; /* do not allow floating elements on the left or the right side*/
+					}
+					.footer
+					{
+						background-color:#0000F;
+						padding:50px;
+						text-align:center;	
+					}
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-one .dItem:hover, .dropdown-two a:hover {
+    background-color: #ddd;
+}
+	
+.dropdown-two {
+  cursor: pointer;
+  display: none;
+  position: absolute;
+  left: 160px;
+  top: 0px;
+  min-width: 160px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-one .dItem {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+}
+	
+					
+					
+					
+					
+					
+					
+					
+					
+					
+					
+				</style>
+	</head>
+	<body>
+	
+		<div class="header">
+						<ul>
+			  <li><a class="active" href="http://www.csc.jfn.ac.lk/">Home</a></li>
+			  <li><a href="http://www.csc.jfn.ac.lk/index.php/about-us/">About</a></li>
+			  <li><a href="http://www.csc.jfn.ac.lk/index.php/degree-programmes/">Degrees</a></li>
+				<li><a href="http://www.csc.jfn.ac.lk/index.php/degree-programmes/">Syllabus</a></li>
+			
+			  <li><a href="http://www.csc.jfn.ac.lk/">Staff</a></li>
+			  <li><a href="http://www.csc.jfn.ac.lk/">Student</a></li>
+			  <li><a href="http://www.csc.jfn.ac.lk/#">Research</a></li>
+			  <li><a href="http://www.csc.jfn.ac.lk/#">Awards</a></li>
+			  <li><a href="http://www.csc.jfn.ac.lk/#">Activity</a></li>
+			  <li><a href="#about">Contact</a></li>
+			  <li><a href="#contact">Gallery</a></li>
+			  <li><a href="#about">Alumini</a></li>
+			</ul>
+			<img src="hedear2.jpg" alt="header" height="450" width="1220">
+		</div>
+		
+		<div class="row">
+				<div class="columnSide"><img src="csccloud.jpg" alt="csccloud" height="290" width="322"></div>
+				
+				<div class="columnMiddle"><h1>WELCOME TO DEPARTMENT OF COMPUTER SCIENCE</h1>
+<p>The Department of Computer Science at the University of Jaffna is one of the remarkable centres of teaching and research in Computer Science in Sri Lanka celebrating its 26 Years of Computing. There are currently over 300 undergraduate and few postgraduate students studying within the Department. The Department aims to collaborate in its activities with the IT industrial sector across the country in research and teaching.</p></div>
+
+
+<div class="columnSide"><h1>DEPARTMENT NEWS/EVENTS</h1>
+<ul1>
+<li>Congratulations to Dr. M. Siyamalan for winning the Best Paper Award (Third Place) in the IEEE ICIIS 2019!</li>
+<li>The Fifth National workshop SL-SWCS was held on 07/12/2019 in Jaffna</li>
+<li>Congratulations to our graduands of the 34th General Convocation Ceremony on 06/12/2019</li>
+<li>The Third CS-Career Fair was held on 26/10/2019 at DCS <a href="http://www.csc.jfn.ac.lk/wp-content/uploads/2019/10/CS-Career.jpg">more >></a></li>
+</ul1>
+</div>
+
+		</div>
+		
+		<div class="footer">
+			<img src="fotter.jpg" alt="fotter" height="200" width="1220">
+		</div>
+		<div class="row">
+				<div class="columnSide"><h2>Supportive Facilities</h2>
+				<br><br>
+				<ul2>
+				<li>The Main Librabry</li><br><br>
+				<li>The computer unit</li><br><br>
+				<li>Physical Education Unit</li><br><br>
+				<li>Centre for Gender Equity & Equality</li><br><br>
+				<li>Ragging Complaint</li><br><br>
+				<li>Welfare Services</li><br><br>
+				<li>The Helth Center</li><br><br>
+				
+				
+				</div>
+				
+				<div class="columnSide"><h2>Information Management Systems</h2>
+				<br><br>
+				<ul2>
+				<li>LMS</li><br><br>
+				<li>FOSEMS</li><br><br>
+				<li>CSCSMS</li><br><br>
+				<li>Y-Bridge</li><br><br>
+				</div>
+				
+				<div class="columnSide"><h2>Useful Links</h2>
+				<br><br>
+				<ul2>
+				<li>Lecture Timetable</li><br><br>
+				<li>Calendar of Dates</li><br><br>
+				<li>Student Handbook 2016/2017</li><br><br>
+				<li>Online Resoureces</li><br><br>
+				<li>Common Guiderline on Student</li><br><br>
+				</div>
+
+<div class="columnSide">
+<img src="Contact.jpeg" alt="fotter" height="293" width="283">
+</div>
+
+		</div>
+	</body>
+</html>
